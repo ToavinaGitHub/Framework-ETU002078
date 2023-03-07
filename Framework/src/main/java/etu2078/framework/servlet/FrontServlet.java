@@ -10,6 +10,8 @@ import jakarta.servlet.http.*;
 
 public class FrontServlet extends HttpServlet {
 
+    HashMap<String,Mapping> MappingUrls;
+    
     public void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws Exception {
         response.setContentType("text/html;charset=UTF-8");
