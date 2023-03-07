@@ -1,17 +1,27 @@
 package etu2078.framework.servlet;
+import etu2078.framework.Mapping;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 
 import jakarta.servlet.http.*;
 
 public class FrontServlet extends HttpServlet {
 
-    HashMap<String,Mapping> MappingUrls;
-    
+    HashMap<String, Mapping> MappingUrls;
+
+    public HashMap<String, Mapping> getMappingUrls() {
+        return MappingUrls;
+    }
+
+    public void setMappingUrls(HashMap<String, Mapping> mappingUrls) {
+        MappingUrls = mappingUrls;
+    }
+
     public void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws Exception {
         response.setContentType("text/html;charset=UTF-8");
