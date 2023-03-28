@@ -9,6 +9,7 @@ public class Etudiant {
         this.idEtudiant = idEtudiant;
         this.nom = nom;
         this.prenom = prenom;
+
     }
 
     public int getIdEtudiant() {

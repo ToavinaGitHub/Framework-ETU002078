@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Framework-ETU002078-vrai:jar" />
+      <artifact name="test:war" />
+      <artifact name="test:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa88780-fc3b-45db-9f66-36be39dd42b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/model/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Framework_ETU002078_vrai_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Framework-ETU002078-vrai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Framework-ETU002078-vrai.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/model/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/model/Etudiant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +50,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/home/toavina/Documents/GitHub/Framework-ETU002078-v/Framework/target/classes/framework.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,6 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678901995233</updated>
       <workItem from="1678901996448" duration="2281000" />
+      <workItem from="1679919002512" duration="2840000" />
+      <workItem from="1679981267760" duration="540000" />
     </task>
     <servers />
   </component>
