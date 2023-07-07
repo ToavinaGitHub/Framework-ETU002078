@@ -19,6 +19,5 @@
 </form>
 <a href="find?idEmp=1">Eto koa!!</a>
 <a href="all">All</a>
-<a href="envoyer?idEtudiant=99">Eto koa!!</a>
 </body>
 </html>
